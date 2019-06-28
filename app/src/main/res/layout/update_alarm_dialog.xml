@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:background="@color/green_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Change Alarm"
+            android:textSize="20sp"
+            android:textColor="@color/green_hint" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <one.xcorp.widget.swipepicker.SwipePicker
+                android:id="@+id/update_alarm_hours_picker"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:hint="Hours"
+                app:backgroundInputTint="@color/green_hint"
+                android:layout_weight="1"
+                app:maxValue="59"
+                app:minValue="0"
+                app:value="0" />
+
+            <one.xcorp.widget.swipepicker.SwipePicker
+                android:id="@+id/update_alarm_minutes_picker"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Minutes"
+                app:backgroundInputTint="@color/green_hint"
+                android:layout_weight="1"
+                app:maxValue="59"
+                app:minValue="0"
+                app:value="0" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/update_alarm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/green_hint"
+            android:textColorHint="@color/green_inactive"
+            android:backgroundTint="@color/green_hint"
+            android:hint="Enter Alarm Name"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active"
+                android:textSize="18sp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/green_hint" />
+
+
+            <Switch
+                android:id="@+id/update_alarm_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/green_hint"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/update_alarm_dialog_invalid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            android:text="All fields are reqired"
+            android:visibility="invisible"
+            android:textSize="12sp"
+            android:textColor="@color/red_active" />
+
+        <Button
+            android:id="@+id/update_dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="290dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@color/green_active"
+            android:text="Update"/>
+
+        <Button
+            android:id="@+id/cancel_update_alarm_dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="340dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@color/green_inactive"
+            android:text="Cancel"/>
+
+        <Button
+            android:id="@+id/delete_update_alarm_dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="390dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@color/red_inactive"
+            android:text="Delete"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
