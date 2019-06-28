@@ -1,19 +1,18 @@
 # Multifunctional Reminder
-
+#
 # Timer Screenshots
-
-![S90628-184309](https://user-images.githubusercontent.com/49000502/60339943-dcd9cb00-99b2-11e9-8d99-d08f67f2f0f4.png)
-![S90628-184324](https://user-images.githubusercontent.com/49000502/60339944-dd726180-99b2-11e9-9deb-c704786ef1f8.png)
-![S90628-184338](https://user-images.githubusercontent.com/49000502/60339945-dd726180-99b2-11e9-82ac-1df0011828d7.png)
-
-
+![S90628-184309](https://user-images.githubusercontent.com/49000502/60340080-51ad0500-99b3-11e9-868e-9e020425d3cf.png)
+![S90628-184324](https://user-images.githubusercontent.com/49000502/60340081-51ad0500-99b3-11e9-8757-e4c5a221ad95.png)
+![S90628-184338](https://user-images.githubusercontent.com/49000502/60340083-52459b80-99b3-11e9-99cc-76fb0ac5d12a.png)
+#
 # Stopwatch Screenshots
 
-![S90628-184357](https://user-images.githubusercontent.com/49000502/60339946-dd726180-99b2-11e9-9376-effa56c18020.png)
-![S90628-184615](https://user-images.githubusercontent.com/49000502/60339948-dd726180-99b2-11e9-9066-e7bfbe110dde.png)
-
+![S90628-184357](https://user-images.githubusercontent.com/49000502/60340084-52459b80-99b3-11e9-9d5a-f1b5916340ae.png)
+![S90628-184615](https://user-images.githubusercontent.com/49000502/60340086-52459b80-99b3-11e9-9867-b82ed6d585fc.png)
+#
 
 # Alarmclock Screenshots
 
-![S90628-184629](https://user-images.githubusercontent.com/49000502/60339949-de0af800-99b2-11e9-86c7-837e393e55ad.png)
-![S90628-184855](https://user-images.githubusercontent.com/49000502/60339950-de0af800-99b2-11e9-897b-e79bd7f6789e.png)
+![S90628-184629](https://user-images.githubusercontent.com/49000502/60340087-52459b80-99b3-11e9-822d-d70242b12be3.png)
+![S90628-184855](https://user-images.githubusercontent.com/49000502/60340088-52459b80-99b3-11e9-9803-b1db318a9ff0.png)
+#
