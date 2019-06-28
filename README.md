@@ -9,7 +9,7 @@
 ![S90628-184338](https://user-images.githubusercontent.com/49000502/60339596-e0208700-99b1-11e9-9314-59476988386d.jpg)
 
 
-**### Stopwatch Screenshots**
+** Stopwatch Screenshots**
 
 ![S90628-184357](https://user-images.githubusercontent.com/49000502/60339598-e0208700-99b1-11e9-856b-2b5b8b9629af.jpg)
 
